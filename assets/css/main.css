@@ -1002,7 +1002,7 @@
 /* Header */
 
 	#header h1 {
-		font-size: 3.25em;
+		font-size: 5em;
 		margin: 0 0 0.55em 0;
 	}
 
@@ -1177,3 +1177,28 @@
 			}
 
 		}
+
+@font-face {
+	font-family: 'caviar';
+	src: url('../../assets/fonts/CaviarDreams-Bold.eot');
+	src: url('../../assets/fonts/CaviarDreams-Bold.eot?#iefix') format('embedded-opentype'),
+	url('../../assets/fonts/CaviarDreams-Bold.woff') format('woff'),
+	url('../../assets/fonts/CaviarDreams-Bold.ttf') format('truetype');
+	font-style: normal;
+}
+
+.caviar{
+	font-family: "caviar";
+}
+
+#white{
+	color: white;
+}
+
+#moduallBlue{
+	color: #1AF2EB;
+}
+
+.emailText{
+	font-size:2em;
+}
