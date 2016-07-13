@@ -761,7 +761,7 @@
 		outline: 0;
 		padding: 0 1em;
 		text-decoration: none;
-		width: 100%;
+		width: 40%;
 	}
 
 		input[type="text"]:invalid,
@@ -1098,10 +1098,11 @@
 		-ms-transition: opacity 0.5s ease-in-out;
 		transition: opacity 0.5s ease-in-out;
 		bottom: 4em;
+		left:0;
 		color: rgba(255, 255, 255, 0.5);
-		left: 4em;
 		opacity: 0.5;
 		position: absolute;
+		top:1em;
 	}
 
 		#footer .icons {
@@ -1144,7 +1145,7 @@
 
 			#footer {
 				bottom: 3.5em;
-				left: 3.5em;
+				left: 0em;
 			}
 
 		}
@@ -1153,7 +1154,7 @@
 
 			#footer {
 				bottom: 2em;
-				left: 2em;
+				left: 0em;
 			}
 
 		}
@@ -1162,7 +1163,7 @@
 
 			#footer {
 				bottom: 1.25em;
-				left: 1.25em;
+				left: 0em;
 			}
 
 		}
